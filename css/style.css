@@ -1,5 +1,7 @@
 /* START RESET */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;500&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,7 +22,9 @@ input:focus {
     border: unset;
 }
 html {
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
+    
 }
 
 /*
@@ -40,4 +44,30 @@ rem - 1rem = font-size definit pe elemetul HTML
 /* * = all elements */
 /* END RESET */
 
+.button {
+    font-size: 1.6rem;
+    line-height: 1.6em;
+    padding: 1em 1.5em;
+    background-color: #25ced1;
+    min-width: 24rem;
+    
+    font-weight: 500;
+    color:white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border:2px solid #25ced1;
+    transition: all 0.3s ease-out;
+}
+.button:hover {
+    background-color: white;
+    color: #25ced1;
+    border:2px solid #25ced1;
+}
+
+/*
+margin,padding,width,height nu funtioneaza pe
+elemente inline
+ */
 
