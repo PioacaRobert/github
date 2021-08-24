@@ -70,4 +70,6 @@ rem - 1rem = font-size definit pe elemetul HTML
 margin,padding,width,height nu funtioneaza pe
 elemente inline
  */
-
+div {
+    display: block;
+}
